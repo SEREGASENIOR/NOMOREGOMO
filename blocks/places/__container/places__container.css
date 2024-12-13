@@ -1,0 +1,22 @@
+.places__container {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    max-width: 984px;
+    gap:40px;
+}
+
+.places__container:not(:last-child){
+    margin-bottom: 80px;
+}
+
+.container__left {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
